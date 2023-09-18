@@ -1,0 +1,58 @@
+header {
+   
+    background: linear-gradient(300deg, #222831, #393e46, #00adb5);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+   
+    margin: auto;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.lightIcon {
+    color: #eeeeee;
+    flex-grow: 1;
+    padding-left: 10px;
+}
+.container{
+    color: #f5efe7;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    gap: 15px;
+    width: 500px;
+}
+
+.item{
+    text-decoration: none;
+    font-family: "Poppins",sans-serif;
+    color: #f5efe7;
+    transition: color 0.15s;
+
+}
+
+.item:hover{
+    color: #00adb5;
+}

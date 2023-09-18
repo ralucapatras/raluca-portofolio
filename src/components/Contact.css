@@ -1,0 +1,43 @@
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {padding-top: 5px;
+   
+}
+
+.sub-title {
+    color: #222831;
+    font-family: "Poppins",sans-serif;
+}
+
+.descr{
+    color:#222831;
+    font-family: "Poppins",sans-serif;
+    display: none;
+}
+
+.sub-title:hover + .descr{
+    display: block;
+    color:#00adb5;
+}
+a {
+    text-decoration: none;
+    color:#222831;
+}
+a:hover{
+    color:#00adb5;
+}
+
+.contact-me{
+    align-items: center;
+   
+}
+
+.container-md{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

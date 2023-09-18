@@ -1,0 +1,23 @@
+.footer {
+    background: linear-gradient(300deg, #222831, #393e46, #00adb5);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+    display: flex;
+    justify-content: center;
+    color: #eeeeee;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    padding: 20px 16px;
+    margin-top: 20px;
+
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
