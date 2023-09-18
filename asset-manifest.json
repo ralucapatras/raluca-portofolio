@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/raluca-portofolio/static/css/main.681e5f32.css",
+    "main.js": "/raluca-portofolio/static/js/main.514cc9a6.js",
+    "static/js/787.cce0a869.chunk.js": "/raluca-portofolio/static/js/787.cce0a869.chunk.js",
+    "index.html": "/raluca-portofolio/index.html",
+    "main.681e5f32.css.map": "/raluca-portofolio/static/css/main.681e5f32.css.map",
+    "main.514cc9a6.js.map": "/raluca-portofolio/static/js/main.514cc9a6.js.map",
+    "787.cce0a869.chunk.js.map": "/raluca-portofolio/static/js/787.cce0a869.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.681e5f32.css",
+    "static/js/main.514cc9a6.js"
+  ]
+}
